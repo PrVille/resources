@@ -1,0 +1,169 @@
+{
+  "categories": [
+    {
+      "name": "Unorganized Resources",
+      "subcategories": [
+        {
+          "name": "These resources need to be organized and might be incomplete.",
+          "resources": [
+            {
+              "title": "Flexbox Froggy",
+              "description": "",
+              "url": "https://flexboxfroggy.com/"
+            },
+            {
+              "title": "Flexbox Defense",
+              "description": "",
+              "url": "http://www.flexboxdefense.com/"
+            },
+            {
+              "title": "Grid Garden",
+              "description": "",
+              "url": "https://cssgridgarden.com/"
+            },
+            {
+              "title": "Codewars",
+              "description": "",
+              "url": "https://www.codewars.com/"
+            },
+            {
+              "title": "Developer Roadmaps",
+              "description": "",
+              "url": "https://roadmap.sh/"
+            },
+            {
+              "title": "Frontend Mentor",
+              "description": "",
+              "url": "https://www.frontendmentor.io/"
+            },
+            {
+              "title": "30 Seconds of Code",
+              "description": "",
+              "url": "https://www.30secondsofcode.org/"
+            },
+            {
+              "title": "vscode-styled-components",
+              "description": "",
+              "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
+            },
+            {
+              "title": "Placehold",
+              "description": "",
+              "url": "https://placehold.co/"
+            },
+            {
+              "title": "Coding Train",
+              "description": "",
+              "url": "https://thecodingtrain.com/"
+            },
+            {
+              "title": "Icons",
+              "description": "",
+              "url": "https://icons8.com/icons"
+            },
+            {
+              "title": "styled-components",
+              "description": "",
+              "url": "https://styled-components.com/"
+            },
+            {
+              "title": "Coding Challenges",
+              "description": "",
+              "url": "https://codingchallenges.fyi/"
+            },
+            {
+              "title": "Emmet Cheat Sheet",
+              "description": "",
+              "url": "https://docs.emmet.io/cheat-sheet/"
+            },
+            {
+              "title": "JavaScript Katas",
+              "description": "",
+              "url": "https://jskatas.org/"
+            },
+            {
+              "title": "30 Seconds of Interviews",
+              "description": "",
+              "url": "https://30secondsofinterviews.org/"
+            },
+            {
+              "title": "MarkSheet",
+              "description": "",
+              "url": "https://marksheet.io/"
+            },
+            {
+              "title": "CSS Grid Cheat Sheet",
+              "description": "",
+              "url": "https://grid.malven.co/"
+            },
+            {
+              "title": "CSS Flexbox Cheat Sheet",
+              "description": "",
+              "url": "https://flexbox.malven.co/"
+            },
+            {
+              "title": "DevDocs",
+              "description": "",
+              "url": "https://devdocs.io/"
+            },
+            {
+              "title": "CSS Tools: Reset CSS",
+              "description": "",
+              "url": "https://meyerweb.com/eric/tools/css/reset/"
+            },
+            {
+              "title": "Cubic Bezier",
+              "description": "",
+              "url": "https://cubic-bezier.com/"
+            },
+            {
+              "title": "Easing Functions Cheat Sheet",
+              "description": "",
+              "url": "https://easings.net/"
+            },
+            {
+              "title": "",
+              "description": "",
+              "url": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "subcategories": [
+        {
+          "name": "Online Courses",
+          "resources": [
+            {
+              "title": "freeCodeCamp",
+              "description": "Offering tracks for HTML, CSS, and JavaScript online.",
+              "url": "https://www.freecodecamp.org"
+            },
+            {
+              "title": "Codecademy",
+              "description": "Offers free lessons for a variety of languages, with full courses available via pro membership.",
+              "url": "https://www.codecademy.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Placeholder",
+      "subcategories": [
+        {
+          "name": "Miscellaneous",
+          "resources": [
+            {
+              "title": "Example Resource",
+              "description": "An example description for a placeholder resource.",
+              "url": "http://example.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
