@@ -7,6 +7,11 @@
           "title": "ChatGPT",
           "description": "An advanced AI chatbot developed by OpenAI, capable of understanding and generating human-like text based on the input provided.",
           "url": "https://chat.openai.com/"
+        },
+        {
+          "title": "Midjourney",
+          "description": "Midjourney is a generative AI that can convert natural language prompts into images",
+          "url": "https://www.midjourney.com/home"
         }
       ]
     },
@@ -142,6 +147,11 @@
           "title": "styled-components",
           "description": "A CSS-in-JS styling framework for React applications.",
           "url": "https://styled-components.com/"
+        },
+        {
+          "title": "React Hook Form",
+          "description": "Performant, flexible and extensible forms with easy-to-use validation.",
+          "url": "https://react-hook-form.com/"
         }
       ]
     },
@@ -197,6 +207,16 @@
           "title": "GreatFrontEnd",
           "description": "The only end-to-end front end interview preparation platform. Brought to you by big tech Senior / Staff Front End Engineers.",
           "url": "https://www.greatfrontend.com/"
+        },
+        {
+          "title": "NeetCode",
+          "description": "A better way to prepare for coding interviews.",
+          "url": "https://neetcode.io/"
+        },
+        {
+          "title": "LeetCode",
+          "description": "LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.",
+          "url": "https://neetcode.io/"
         }
       ]
     },
@@ -317,6 +337,11 @@
           "title": "Dev Resources",
           "description": "A comprehensive directory of tools, libraries, and platforms for web development and coding.",
           "url": "https://devresourc.es/"
+        },
+        {
+          "title": "LinksHub",
+          "description": "LinksHub aims to provide people access to a wide range of free resources and tools that they can use to learn and develop their tech skills.",
+          "url": "https://www.linkshub.dev/"
         }
       ]
     }
