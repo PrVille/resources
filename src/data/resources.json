@@ -26,6 +26,51 @@
       ]
     },
     {
+      "name": "Code Snippets and Cheatsheets",
+      "resources": [
+        {
+          "title": "CSS Grid Cheat Sheet",
+          "description": "A reference for CSS Grid layout.",
+          "url": "https://grid.malven.co/"
+        },
+        {
+          "title": "CSS Flexbox Cheat Sheet",
+          "description": "A reference for CSS Flexbox layout.",
+          "url": "https://flexbox.malven.co/"
+        },
+        {
+          "title": "Emmet Cheat Sheet",
+          "description": "A cheat sheet for Emmet, a plugin for many popular text editors which greatly improves HTML & CSS workflow.",
+          "url": "https://docs.emmet.io/cheat-sheet/"
+        },
+        {
+          "title": "Easing Functions Cheat Sheet",
+          "description": "A comprehensive guide to CSS easing functions.",
+          "url": "https://easings.net/"
+        },
+        {
+          "title": "Emoji Cheat Sheet",
+          "description": "A comprehensive guide to emoji codes and shortcuts, facilitating easy integration of emojis in coding and communication platforms.",
+          "url": "https://www.webfx.com/tools/emoji-cheat-sheet/"
+        },
+        {
+          "title": "30 Seconds of Code",
+          "description": "Provides concise code snippets for a wide range of programming languages and technologies, aimed at helping developers learn and solve problems quickly.",
+          "url": "https://www.30secondsofcode.org/"
+        },
+        {
+          "title": "Code to go",
+          "description": "Find up to date snippets for JavaScript & React use cases",
+          "url": "https://codetogo.io/"
+        },
+        {
+          "title": "React TypeScript Cheatsheets",
+          "description": "Cheatsheets for experienced React developers getting started with TypeScript",
+          "url": "https://react-typescript-cheatsheet.netlify.app/"
+        }
+      ]
+    },
+    {
       "name": "Coding Practice and Challenges",
       "resources": [
         {
@@ -276,46 +321,6 @@
       ]
     },
     {
-      "name": "Code Snippets and Cheatsheets",
-      "resources": [
-        {
-          "title": "CSS Grid Cheat Sheet",
-          "description": "A reference for CSS Grid layout.",
-          "url": "https://grid.malven.co/"
-        },
-        {
-          "title": "CSS Flexbox Cheat Sheet",
-          "description": "A reference for CSS Flexbox layout.",
-          "url": "https://flexbox.malven.co/"
-        },
-        {
-          "title": "Emmet Cheat Sheet",
-          "description": "A cheat sheet for Emmet, a plugin for many popular text editors which greatly improves HTML & CSS workflow.",
-          "url": "https://docs.emmet.io/cheat-sheet/"
-        },
-        {
-          "title": "Easing Functions Cheat Sheet",
-          "description": "A comprehensive guide to CSS easing functions.",
-          "url": "https://easings.net/"
-        },
-        {
-          "title": "Emoji Cheat Sheet",
-          "description": "A comprehensive guide to emoji codes and shortcuts, facilitating easy integration of emojis in coding and communication platforms.",
-          "url": "https://www.webfx.com/tools/emoji-cheat-sheet/"
-        },
-        {
-          "title": "30 Seconds of Code",
-          "description": "Provides concise code snippets for a wide range of programming languages and technologies, aimed at helping developers learn and solve problems quickly.",
-          "url": "https://www.30secondsofcode.org/"
-        },
-        {
-          "title": "Code to go",
-          "description": "Find up to date snippets for JavaScript & React use cases",
-          "url": "https://codetogo.io/"
-        }
-      ]
-    },
-    {
       "name": "Resource",
       "resources": [
         {
@@ -342,6 +347,16 @@
           "title": "LinksHub",
           "description": "LinksHub aims to provide people access to a wide range of free resources and tools that they can use to learn and develop their tech skills.",
           "url": "https://www.linkshub.dev/"
+        }
+      ]
+    },
+    {
+      "name": "YouTube",
+      "resources": [
+        {
+          "title": "Sebastian Lague",
+          "description": "Hello, on this channel I explore how to create stuff out of code. I hope you find some of it interesting!",
+          "url": "https://www.youtube.com/@SebastianLague"
         }
       ]
     }
