@@ -1,167 +1,142 @@
 {
   "categories": [
     {
-      "name": "Unorganized Resources",
-      "subcategories": [
-        {
-          "name": "Resources",
-          "resources": [
-            {
-              "title": "Flexbox Froggy",
-              "description": "A game that helps you learn CSS flexbox.",
-              "url": "https://flexboxfroggy.com/"
-            },
-            {
-              "title": "Flexbox Defense",
-              "description": "A game focused on teaching CSS flexbox through tower defense mechanics.",
-              "url": "http://www.flexboxdefense.com/"
-            },
-            {
-              "title": "Grid Garden",
-              "description": "A game for learning CSS grid layout.",
-              "url": "https://cssgridgarden.com/"
-            },
-            {
-              "title": "Codewars",
-              "description": "A platform for coding challenges and exercises across a variety of programming languages.",
-              "url": "https://www.codewars.com/"
-            },
-            {
-              "title": "Developer Roadmaps",
-              "description": "Guides and roadmaps for developers to learn different technologies.",
-              "url": "https://roadmap.sh/"
-            },
-            {
-              "title": "Frontend Mentor",
-              "description": "Real-world HTML, CSS, and JavaScript challenges alongside professional front-end projects.",
-              "url": "https://www.frontendmentor.io/"
-            },
-            {
-              "title": "30 Seconds of Code",
-              "description": "Short code snippets for all your development needs.",
-              "url": "https://www.30secondsofcode.org/"
-            },
-            {
-              "title": "vscode-styled-components",
-              "description": "Visual Studio Code extension for syntax highlighting of styled components.",
-              "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
-            },
-            {
-              "title": "Placehold",
-              "description": "A quick and simple image placeholder service.",
-              "url": "https://placehold.co/"
-            },
-            {
-              "title": "Coding Train",
-              "description": "Tutorials on creative coding, covering topics in computer graphics, data visualization, and algorithmic art.",
-              "url": "https://thecodingtrain.com/"
-            },
-            {
-              "title": "Icons",
-              "description": "A library of free vector icons for personal and commercial use.",
-              "url": "https://icons8.com/icons"
-            },
-            {
-              "title": "styled-components",
-              "description": "A CSS-in-JS styling framework for React applications.",
-              "url": "https://styled-components.com/"
-            },
-            {
-              "title": "Coding Challenges",
-              "description": "A compilation of coding challenges and exercises to improve your coding skills.",
-              "url": "https://codingchallenges.fyi/"
-            },
-            {
-              "title": "Emmet Cheat Sheet",
-              "description": "A cheat sheet for Emmet, a plugin for many popular text editors which greatly improves HTML & CSS workflow.",
-              "url": "https://docs.emmet.io/cheat-sheet/"
-            },
-            {
-              "title": "JavaScript Katas",
-              "description": "A platform for practicing JavaScript coding skills with katas.",
-              "url": "https://jskatas.org/"
-            },
-            {
-              "title": "30 Seconds of Interviews",
-              "description": "A collection of common interview questions and answers for front-end development.",
-              "url": "https://30secondsofinterviews.org/"
-            },
-            {
-              "title": "MarkSheet",
-              "description": "A free tutorial to learn HTML and CSS.",
-              "url": "https://marksheet.io/"
-            },
-            {
-              "title": "CSS Grid Cheat Sheet",
-              "description": "A reference for CSS Grid layout.",
-              "url": "https://grid.malven.co/"
-            },
-            {
-              "title": "CSS Flexbox Cheat Sheet",
-              "description": "A reference for CSS Flexbox layout.",
-              "url": "https://flexbox.malven.co/"
-            },
-            {
-              "title": "DevDocs",
-              "description": "An extensive API documentation browser with a fast, organized, and searchable interface.",
-              "url": "https://devdocs.io/"
-            },
-            {
-              "title": "CSS Tools: Reset CSS",
-              "description": "A CSS reset stylesheet to reduce browser inconsistencies.",
-              "url": "https://meyerweb.com/eric/tools/css/reset/"
-            },
-            {
-              "title": "Cubic Bezier",
-              "description": "A tool for generating cubic-bezier curves.",
-              "url": "https://cubic-bezier.com/"
-            },
-            {
-              "title": "Easing Functions Cheat Sheet",
-              "description": "A comprehensive guide to CSS easing functions.",
-              "url": "https://easings.net/"
-            },
-            {
-              "title": "",
-              "description": "",
-              "url": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Learning",
-      "subcategories": [
+      "resources": [
         {
-          "name": "Online Courses",
-          "resources": [
-            {
-              "title": "freeCodeCamp",
-              "description": "Offering tracks for HTML, CSS, and JavaScript online.",
-              "url": "https://www.freecodecamp.org"
-            },
-            {
-              "title": "Codecademy",
-              "description": "Offers free lessons for a variety of languages, with full courses available via pro membership.",
-              "url": "https://www.codecademy.com"
-            }
-          ]
+          "title": "freeCodeCamp",
+          "description": "Offering tracks for HTML, CSS, and JavaScript online.",
+          "url": "https://www.freecodecamp.org"
+        },
+        {
+          "title": "Codecademy",
+          "description": "Offers free lessons for a variety of languages, with full courses available via pro membership.",
+          "url": "https://www.codecademy.com"
         }
       ]
     },
     {
-      "name": "Placeholder",
-      "subcategories": [
+      "name": "Unorganized Resources",
+      "resources": [
         {
-          "name": "Miscellaneous",
-          "resources": [
-            {
-              "title": "Example Resource",
-              "description": "An example description for a placeholder resource.",
-              "url": "http://example.com"
-            }
-          ]
+          "title": "Flexbox Froggy",
+          "description": "A game that helps you learn CSS flexbox.",
+          "url": "https://flexboxfroggy.com/"
+        },
+        {
+          "title": "Flexbox Defense",
+          "description": "A game focused on teaching CSS flexbox through tower defense mechanics.",
+          "url": "http://www.flexboxdefense.com/"
+        },
+        {
+          "title": "Grid Garden",
+          "description": "A game for learning CSS grid layout.",
+          "url": "https://cssgridgarden.com/"
+        },
+        {
+          "title": "Codewars",
+          "description": "A platform for coding challenges and exercises across a variety of programming languages.",
+          "url": "https://www.codewars.com/"
+        },
+        {
+          "title": "Developer Roadmaps",
+          "description": "Guides and roadmaps for developers to learn different technologies.",
+          "url": "https://roadmap.sh/"
+        },
+        {
+          "title": "Frontend Mentor",
+          "description": "Real-world HTML, CSS, and JavaScript challenges alongside professional front-end projects.",
+          "url": "https://www.frontendmentor.io/"
+        },
+        {
+          "title": "30 Seconds of Code",
+          "description": "Short code snippets for all your development needs.",
+          "url": "https://www.30secondsofcode.org/"
+        },
+        {
+          "title": "vscode-styled-components",
+          "description": "Visual Studio Code extension for syntax highlighting of styled components.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
+        },
+        {
+          "title": "Placehold",
+          "description": "A quick and simple image placeholder service.",
+          "url": "https://placehold.co/"
+        },
+        {
+          "title": "Coding Train",
+          "description": "Tutorials on creative coding, covering topics in computer graphics, data visualization, and algorithmic art.",
+          "url": "https://thecodingtrain.com/"
+        },
+        {
+          "title": "Icons",
+          "description": "A library of free vector icons for personal and commercial use.",
+          "url": "https://icons8.com/icons"
+        },
+        {
+          "title": "styled-components",
+          "description": "A CSS-in-JS styling framework for React applications.",
+          "url": "https://styled-components.com/"
+        },
+        {
+          "title": "Coding Challenges",
+          "description": "A compilation of coding challenges and exercises to improve your coding skills.",
+          "url": "https://codingchallenges.fyi/"
+        },
+        {
+          "title": "Emmet Cheat Sheet",
+          "description": "A cheat sheet for Emmet, a plugin for many popular text editors which greatly improves HTML & CSS workflow.",
+          "url": "https://docs.emmet.io/cheat-sheet/"
+        },
+        {
+          "title": "JavaScript Katas",
+          "description": "A platform for practicing JavaScript coding skills with katas.",
+          "url": "https://jskatas.org/"
+        },
+        {
+          "title": "30 Seconds of Interviews",
+          "description": "A collection of common interview questions and answers for front-end development.",
+          "url": "https://30secondsofinterviews.org/"
+        },
+        {
+          "title": "MarkSheet",
+          "description": "A free tutorial to learn HTML and CSS.",
+          "url": "https://marksheet.io/"
+        },
+        {
+          "title": "CSS Grid Cheat Sheet",
+          "description": "A reference for CSS Grid layout.",
+          "url": "https://grid.malven.co/"
+        },
+        {
+          "title": "CSS Flexbox Cheat Sheet",
+          "description": "A reference for CSS Flexbox layout.",
+          "url": "https://flexbox.malven.co/"
+        },
+        {
+          "title": "DevDocs",
+          "description": "An extensive API documentation browser with a fast, organized, and searchable interface.",
+          "url": "https://devdocs.io/"
+        },
+        {
+          "title": "CSS Tools: Reset CSS",
+          "description": "A CSS reset stylesheet to reduce browser inconsistencies.",
+          "url": "https://meyerweb.com/eric/tools/css/reset/"
+        },
+        {
+          "title": "Cubic Bezier",
+          "description": "A tool for generating cubic-bezier curves.",
+          "url": "https://cubic-bezier.com/"
+        },
+        {
+          "title": "Easing Functions Cheat Sheet",
+          "description": "A comprehensive guide to CSS easing functions.",
+          "url": "https://easings.net/"
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
         }
       ]
     }

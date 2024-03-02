@@ -14,8 +14,8 @@ interface DropdownProps {
 
 const Dropdown: FC<DropdownProps> = ({ categories, ...restProps }) => {
   const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    const subcategoryName = event.target.value
-    const section = document.getElementById(subcategoryName)
+    const categoryName = event.target.value
+    const section = document.getElementById(categoryName)
     if (section) {
       section.scrollIntoView({ behavior: "smooth" })
     }
@@ -24,13 +24,9 @@ const Dropdown: FC<DropdownProps> = ({ categories, ...restProps }) => {
   return (
     <StyledDropdown onChange={handleSelectChange} {...restProps}>
       {categories.map((category, index) => (
-        <optgroup label={category.name} key={index}>
-          {category.subcategories.map((subcategory, subIndex) => (
-            <option value={subcategory.name} key={subIndex}>
-              {subcategory.name}
-            </option>
-          ))}
-        </optgroup>
+        <option value={category.name} key={index}>
+          {category.name}
+        </option>
       ))}
     </StyledDropdown>
   )

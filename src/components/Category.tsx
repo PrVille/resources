@@ -1,26 +1,42 @@
 import styled from "styled-components"
 import { FC } from "react"
-import { Category } from "../types/global"
-import Subcategories from "./Subcategories"
+import * as types from "../types/global"
+import Resources from "./Resources"
 
 const StyledCategory = styled.div``
 
+const Line = styled.div`
+  flex: 1;
+  height: 1px;
+  background-color: gray;
+`
+
+const NameContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0px 48px 0px;
+`
+
 const Name = styled.h2`
   text-transform: uppercase;
-  text-align: center;
-  padding: 64px 0px 24px 0px;
+  padding: 0 24px;
 `
 
 interface CategoryProps {
-  category: Category
+  category: types.Category
 }
 
 const Category: FC<CategoryProps> = ({ category, ...restProps }) => {
   return (
-    <StyledCategory {...restProps}>
-      <Name>{category.name}</Name>
+    <StyledCategory id={category.name} {...restProps}>
+      <NameContainer>
+        <Line />
+        <Name>{category.name}</Name>
+        <Line />
+      </NameContainer>
 
-      <Subcategories subcategories={category.subcategories} />
+      <Resources resources={category.resources} />
     </StyledCategory>
   )
 }

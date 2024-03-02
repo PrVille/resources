@@ -4,12 +4,7 @@ export interface Resource {
   url: string
 }
 
-export interface Subcategory {
-  name: string
-  resources: Resource[]
-}
-
 export interface Category {
   name: string
-  subcategories: Subcategory[]
+  resources: Resource[]
 }
