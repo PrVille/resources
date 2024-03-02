@@ -8,8 +8,7 @@ const StyledCategory = styled.div``
 const Name = styled.h2`
   text-transform: uppercase;
   text-align: center;
-  margin-top: 48px;
-  padding: 24px 0px;
+  padding: 64px 0px 24px 0px;
 `
 
 interface CategoryProps {

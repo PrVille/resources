@@ -15,7 +15,7 @@ const NameContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px 0px;
+  padding: 64px 0px 24px 0px;
 `
 
 const Name = styled.h3`
