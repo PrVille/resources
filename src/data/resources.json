@@ -8,117 +8,117 @@
           "resources": [
             {
               "title": "Flexbox Froggy",
-              "description": "",
+              "description": "A game that helps you learn CSS flexbox.",
               "url": "https://flexboxfroggy.com/"
             },
             {
               "title": "Flexbox Defense",
-              "description": "",
+              "description": "A game focused on teaching CSS flexbox through tower defense mechanics.",
               "url": "http://www.flexboxdefense.com/"
             },
             {
               "title": "Grid Garden",
-              "description": "",
+              "description": "A game for learning CSS grid layout.",
               "url": "https://cssgridgarden.com/"
             },
             {
               "title": "Codewars",
-              "description": "",
+              "description": "A platform for coding challenges and exercises across a variety of programming languages.",
               "url": "https://www.codewars.com/"
             },
             {
               "title": "Developer Roadmaps",
-              "description": "",
+              "description": "Guides and roadmaps for developers to learn different technologies.",
               "url": "https://roadmap.sh/"
             },
             {
               "title": "Frontend Mentor",
-              "description": "",
+              "description": "Real-world HTML, CSS, and JavaScript challenges alongside professional front-end projects.",
               "url": "https://www.frontendmentor.io/"
             },
             {
               "title": "30 Seconds of Code",
-              "description": "",
+              "description": "Short code snippets for all your development needs.",
               "url": "https://www.30secondsofcode.org/"
             },
             {
               "title": "vscode-styled-components",
-              "description": "",
+              "description": "Visual Studio Code extension for syntax highlighting of styled components.",
               "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
             },
             {
               "title": "Placehold",
-              "description": "",
+              "description": "A quick and simple image placeholder service.",
               "url": "https://placehold.co/"
             },
             {
               "title": "Coding Train",
-              "description": "",
+              "description": "Tutorials on creative coding, covering topics in computer graphics, data visualization, and algorithmic art.",
               "url": "https://thecodingtrain.com/"
             },
             {
               "title": "Icons",
-              "description": "",
+              "description": "A library of free vector icons for personal and commercial use.",
               "url": "https://icons8.com/icons"
             },
             {
               "title": "styled-components",
-              "description": "",
+              "description": "A CSS-in-JS styling framework for React applications.",
               "url": "https://styled-components.com/"
             },
             {
               "title": "Coding Challenges",
-              "description": "",
+              "description": "A compilation of coding challenges and exercises to improve your coding skills.",
               "url": "https://codingchallenges.fyi/"
             },
             {
               "title": "Emmet Cheat Sheet",
-              "description": "",
+              "description": "A cheat sheet for Emmet, a plugin for many popular text editors which greatly improves HTML & CSS workflow.",
               "url": "https://docs.emmet.io/cheat-sheet/"
             },
             {
               "title": "JavaScript Katas",
-              "description": "",
+              "description": "A platform for practicing JavaScript coding skills with katas.",
               "url": "https://jskatas.org/"
             },
             {
               "title": "30 Seconds of Interviews",
-              "description": "",
+              "description": "A collection of common interview questions and answers for front-end development.",
               "url": "https://30secondsofinterviews.org/"
             },
             {
               "title": "MarkSheet",
-              "description": "",
+              "description": "A free tutorial to learn HTML and CSS.",
               "url": "https://marksheet.io/"
             },
             {
               "title": "CSS Grid Cheat Sheet",
-              "description": "",
+              "description": "A reference for CSS Grid layout.",
               "url": "https://grid.malven.co/"
             },
             {
               "title": "CSS Flexbox Cheat Sheet",
-              "description": "",
+              "description": "A reference for CSS Flexbox layout.",
               "url": "https://flexbox.malven.co/"
             },
             {
               "title": "DevDocs",
-              "description": "",
+              "description": "An extensive API documentation browser with a fast, organized, and searchable interface.",
               "url": "https://devdocs.io/"
             },
             {
               "title": "CSS Tools: Reset CSS",
-              "description": "",
+              "description": "A CSS reset stylesheet to reduce browser inconsistencies.",
               "url": "https://meyerweb.com/eric/tools/css/reset/"
             },
             {
               "title": "Cubic Bezier",
-              "description": "",
+              "description": "A tool for generating cubic-bezier curves.",
               "url": "https://cubic-bezier.com/"
             },
             {
               "title": "Easing Functions Cheat Sheet",
-              "description": "",
+              "description": "A comprehensive guide to CSS easing functions.",
               "url": "https://easings.net/"
             },
             {

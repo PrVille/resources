@@ -14,6 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
     box-sizing: inherit;
     width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   // Scrollbar styles 

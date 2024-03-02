@@ -28,7 +28,7 @@ interface SubcategoryProps {
 
 const Subcategory: FC<SubcategoryProps> = ({ subcategory, ...restProps }) => {
   return (
-    <StyledSubcategory {...restProps}>
+    <StyledSubcategory id={subcategory.name} {...restProps}>
       <NameContainer>
         <Line />
         <Name>{subcategory.name}</Name>
