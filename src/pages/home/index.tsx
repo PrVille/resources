@@ -1,37 +1,52 @@
 import resources from "../../data/resources.json"
 import styled from "styled-components"
 import Categories from "../../components/Categories"
-import Dropdown from "../../components/Dropdown"
+import Sidebar from "../../components/Sidebar"
 
 const StyledHome = styled.div`
-  padding: 10px;
+  min-height: 100vh;
+  display: flex;
 `
 
 const StyledTitle = styled.h1`
   flex-grow: 1;
   text-transform: uppercase;
-  text-align: center;
-  padding: 24px 0px;
 `
 
-const StickyDropdown = styled.div`
-  position: sticky;
-  top: 0;
+const MainContent = styled.div`
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 60px;
+`
+
+const TopBar = styled.header`
+  position: fixed;
+  top: 0px;
 
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  z-index: 10;
 `
 
 const Home = () => {
   return (
     <StyledHome>
-      <StyledTitle>Free Resources</StyledTitle>
+      <TopBar>
+        <StyledTitle>Free Resources</StyledTitle>
+      </TopBar>
 
-      <StickyDropdown>
-        <Dropdown categories={resources.categories} />
-      </StickyDropdown>
+      <Sidebar categories={resources.categories} />
 
-      <Categories categories={resources.categories} />
+      <MainContent>
+        <Categories categories={resources.categories} />
+      </MainContent>
     </StyledHome>
   )
 }

@@ -7,4 +7,5 @@ This project is a curated collection of resources and links related to software 
 ## TODO
 
 - Styles
-- Favorites
+- Favorites/Bookmark to local storage
+- Navigation
