@@ -92,6 +92,11 @@
           "title": "Frontend Mentor",
           "description": "Real-world HTML, CSS, and JavaScript challenges alongside professional front-end projects.",
           "url": "https://www.frontendmentor.io/"
+        },
+        {
+          "title": "CSES Problem Set",
+          "description": "The CSES Problem Set contains a collection of algorithm programming practice problems.",
+          "url": "https://cses.fi/problemset/"
         }
       ]
     },
