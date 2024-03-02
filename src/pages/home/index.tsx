@@ -2,6 +2,7 @@ import resources from "../../data/resources.json"
 import styled from "styled-components"
 import Categories from "../../components/Categories"
 import Sidebar from "../../components/Sidebar"
+import Footer from "../../components/Footer"
 
 const sortedCategories = resources.categories.sort((a, b) =>
   a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
@@ -50,6 +51,7 @@ const Home = () => {
 
       <MainContent>
         <Categories categories={sortedCategories} />
+        <Footer />
       </MainContent>
     </StyledHome>
   )
