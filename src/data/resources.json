@@ -16,7 +16,57 @@
       ]
     },
     {
-      "name": "Unorganized Resources",
+      "name": "Visual Studio Code Extensions",
+      "resources": [
+        {
+          "title": "vscode-styled-components",
+          "description": "Visual Studio Code extension for syntax highlighting of styled components.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
+        },
+        {
+          "title": "VS Code Pets",
+          "description": "",
+          "url": "https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets"
+        }
+      ]
+    },
+    {
+      "name": "Resources Collections",
+      "resources": [
+        {
+          "title": "Frontend Mentor Resources",
+          "description": "",
+          "url": "https://www.frontendmentor.io/resources"
+        },
+        {
+          "title": "Best-websites-a-programmer-should-visit",
+          "description": "",
+          "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
+        },
+        {
+          "title": "Free for Developers",
+          "description": "",
+          "url": "https://free-for.dev/#/"
+        },
+        {
+          "title": "Dev Resources",
+          "description": "",
+          "url": "https://devresourc.es/"
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Unorganized",
       "resources": [
         {
           "title": "Flexbox Froggy",
@@ -53,11 +103,7 @@
           "description": "Short code snippets for all your development needs.",
           "url": "https://www.30secondsofcode.org/"
         },
-        {
-          "title": "vscode-styled-components",
-          "description": "Visual Studio Code extension for syntax highlighting of styled components.",
-          "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
-        },
+
         {
           "title": "Placehold",
           "description": "A quick and simple image placeholder service.",
@@ -132,6 +178,186 @@
           "title": "Easing Functions Cheat Sheet",
           "description": "A comprehensive guide to CSS easing functions.",
           "url": "https://easings.net/"
+        },
+        {
+          "title": "Getting Into Information Security",
+          "description": "",
+          "url": "https://shellsharks.com/getting-into-information-security#title"
+        },
+        {
+          "title": "@gsap/react for using GSAP in React",
+          "description": "",
+          "url": "https://github.com/greensock/react"
+        },
+        {
+          "title": "Code to go",
+          "description": "",
+          "url": "https://codetogo.io/"
+        },
+        {
+          "title": "landin'page.fyi",
+          "description": "",
+          "url": "https://landingpage.fyi/"
+        },
+        {
+          "title": "Responsively App",
+          "description": "",
+          "url": "https://responsively.app/"
+        },
+        {
+          "title": "Animista",
+          "description": "",
+          "url": "https://animista.net/"
+        },
+        {
+          "title": "Tech Interview Handbook",
+          "description": "",
+          "url": "https://www.techinterviewhandbook.org/"
+        },
+        {
+          "title": "Front End Interview Handbook",
+          "description": "",
+          "url": "https://www.frontendinterviewhandbook.com/"
+        },
+        {
+          "title": "GreatFrontEnd",
+          "description": "",
+          "url": "https://www.greatfrontend.com/"
+        },
+        {
+          "title": "system-design-101",
+          "description": "",
+          "url": "https://github.com/ByteByteGoHq/system-design-101"
+        },
+        {
+          "title": "engineering-blogs",
+          "description": "",
+          "url": "https://github.com/kilimchoi/engineering-blogs"
+        },
+        {
+          "title": "path-to-senior-engineer-handbook",
+          "description": "",
+          "url": "https://github.com/jordan-cutler/path-to-senior-engineer-handbook"
+        },
+        {
+          "title": "HTMLrev",
+          "description": "",
+          "url": "https://htmlrev.com/"
+        },
+        {
+          "title": "Visualgo",
+          "description": "",
+          "url": "https://visualgo.net/en"
+        },
+        {
+          "title": "IT-Tools",
+          "description": "",
+          "url": "https://it-tools.tech/"
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "url": ""
         },
         {
           "title": "",

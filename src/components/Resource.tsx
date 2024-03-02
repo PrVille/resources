@@ -15,8 +15,19 @@ const StyledResource = styled.a`
   }
 `
 
-const Title = styled.h4`
+const TitleContainer = styled.div`
+  display: flex;
+  gap: 12px;
   padding-bottom: 16px;
+`
+
+const FavIcon = styled.img`
+  height: 16px;
+  width: 16px;
+`
+
+const Title = styled.h4`
+  line-height: 16px;
 `
 
 const Description = styled.p`
@@ -29,6 +40,8 @@ interface ResourceProps {
 }
 
 const Resource: FC<ResourceProps> = ({ resource, ...restProps }) => {
+  const favIconSrc = `https://www.google.com/s2/favicons?domain=${resource.url}`
+
   return (
     <StyledResource
       href={resource.url}
@@ -36,7 +49,11 @@ const Resource: FC<ResourceProps> = ({ resource, ...restProps }) => {
       rel="noopener noreferrer"
       {...restProps}
     >
-      <Title>{resource.title}</Title>
+      <TitleContainer>
+        <FavIcon src={favIconSrc} />
+        <Title>{resource.title}</Title>
+      </TitleContainer>
+
       <Description>{resource.description}</Description>
     </StyledResource>
   )
