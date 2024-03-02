@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Learning",
+      "name": "Learn",
       "resources": [
         {
           "title": "freeCodeCamp",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "name": "Visual Studio Code Extensions",
+      "name": "Extension",
       "resources": [
         {
           "title": "vscode-styled-components",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "Resource Collections",
+      "name": "Resource",
       "resources": [
         {
           "title": "Frontend Mentor Resources",
@@ -54,6 +54,30 @@
           "url": "https://devresourc.es/"
         }
       ]
+    },
+    {
+      "name": "AI",
+      "resources": []
+    },
+    {
+      "name": "Cheatsheet",
+      "resources": []
+    },
+    {
+      "name": "Icon",
+      "resources": []
+    },
+    {
+      "name": "Image",
+      "resources": []
+    },
+    {
+      "name": "Design",
+      "resources": []
+    },
+    {
+      "name": "Documentation",
+      "resources": []
     },
     {
       "name": "Unorganized",
@@ -245,114 +269,9 @@
           "url": "https://it-tools.tech/"
         },
         {
-          "title": "",
+          "title": "SVG Repo",
           "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
+          "url": "https://www.svgrepo.com/"
         }
       ]
     }
