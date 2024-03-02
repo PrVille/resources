@@ -1,7 +1,197 @@
 {
   "categories": [
     {
-      "name": "Learn",
+      "name": "AI and Machine Learning",
+      "resources": [
+        {
+          "title": "ChatGPT",
+          "description": "An advanced AI chatbot developed by OpenAI, capable of understanding and generating human-like text based on the input provided.",
+          "url": "https://chat.openai.com/"
+        }
+      ]
+    },
+    {
+      "name": "Animation",
+      "resources": [
+        {
+          "title": "Animista",
+          "description": "A web-based tool that allows users to easily generate CSS animations with customizable parameters.",
+          "url": "https://animista.net/"
+        }
+      ]
+    },
+    {
+      "name": "Coding Practice and Challenges",
+      "resources": [
+        {
+          "title": "Codewars",
+          "description": "A platform for coding challenges and exercises across a variety of programming languages.",
+          "url": "https://www.codewars.com/"
+        },
+        {
+          "title": "Coding Challenges",
+          "description": "A compilation of coding challenges and exercises to improve your coding skills.",
+          "url": "https://codingchallenges.fyi/"
+        },
+        {
+          "title": "JavaScript Katas",
+          "description": "A platform for practicing JavaScript coding skills with katas.",
+          "url": "https://jskatas.org/"
+        },
+        {
+          "title": "Frontend Mentor",
+          "description": "Real-world HTML, CSS, and JavaScript challenges alongside professional front-end projects.",
+          "url": "https://www.frontendmentor.io/"
+        }
+      ]
+    },
+    {
+      "name": "Community",
+      "resources": [
+        {
+          "title": "engineering-blogs",
+          "description": "A curated list of engineering blogs of tech companies and startups, providing insights into engineering culture, practices, and projects.",
+          "url": "https://github.com/kilimchoi/engineering-blogs"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity and Privacy",
+      "resources": [
+        {
+          "title": "Getting Into Information Security",
+          "description": "A guide for those interested in entering the field of information security, covering fundamentals, career paths, and resources.",
+          "url": "https://shellsharks.com/getting-into-information-security#title"
+        }
+      ]
+    },
+    {
+      "name": "Design and UI",
+      "resources": [
+        {
+          "title": "landin'page.fyi",
+          "description": "A comprehensive guide to creating effective and visually appealing landing pages, offering templates, design tips, and best practices.",
+          "url": "https://landingpage.fyi/"
+        },
+        {
+          "title": "HTMLrev",
+          "description": "An online platform providing a vast collection of HTML templates, tips, and tools to enhance web development projects.",
+          "url": "https://htmlrev.com/"
+        },
+        {
+          "title": "Cubic Bezier",
+          "description": "A tool for generating cubic-bezier curves.",
+          "url": "https://cubic-bezier.com/"
+        },
+        {
+          "title": "Responsively App",
+          "description": "A desktop application that aids in developing responsive web designs by allowing simultaneous viewing of multiple screen sizes.",
+          "url": "https://responsively.app/"
+        }
+      ]
+    },
+    {
+      "name": "Development Tools and Extensions",
+      "resources": [
+        {
+          "title": "vscode-styled-components",
+          "description": "Visual Studio Code extension for syntax highlighting of styled components.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
+        },
+        {
+          "title": "VS Code Pets",
+          "description": "An enjoyable VS Code extension that adds pets in your code workspace for a fun coding environment.",
+          "url": "https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets"
+        },
+        {
+          "title": "CSS Tools: Reset CSS",
+          "description": "A CSS reset stylesheet to reduce browser inconsistencies.",
+          "url": "https://meyerweb.com/eric/tools/css/reset/"
+        },
+        {
+          "title": "IT-Tools",
+          "description": "A curated collection of IT and networking tools, including calculators, converters, and troubleshooting utilities for professionals.",
+          "url": "https://it-tools.tech/"
+        }
+      ]
+    },
+    {
+      "name": "Documentation and Reference",
+      "resources": [
+        {
+          "title": "DevDocs",
+          "description": "An extensive API documentation browser with a fast, organized, and searchable interface.",
+          "url": "https://devdocs.io/"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "resources": [
+        {
+          "title": "@gsap/react for using GSAP in React",
+          "description": "A React wrapper for GreenSock Animation Platform (GSAP), enabling high-performance animations in React applications.",
+          "url": "https://github.com/greensock/react"
+        },
+        {
+          "title": "styled-components",
+          "description": "A CSS-in-JS styling framework for React applications.",
+          "url": "https://styled-components.com/"
+        }
+      ]
+    },
+    {
+      "name": "Icons and Images",
+      "resources": [
+        {
+          "title": "Icons",
+          "description": "A library of free vector icons for personal and commercial use.",
+          "url": "https://icons8.com/icons"
+        },
+        {
+          "title": "SVG Repo",
+          "description": "A vast collection of free, downloadable SVG icons and graphics, suitable for web and graphic design projects.",
+          "url": "https://www.svgrepo.com/"
+        },
+        {
+          "title": "Placehold",
+          "description": "A quick and simple image placeholder service.",
+          "url": "https://placehold.co/"
+        }
+      ]
+    },
+    {
+      "name": "Interview and Career",
+      "resources": [
+        {
+          "title": "30 Seconds of Interviews",
+          "description": "A collection of common interview questions and answers for front-end development.",
+          "url": "https://30secondsofinterviews.org/"
+        },
+        {
+          "title": "Tech Interview Handbook",
+          "description": "A comprehensive guide to tech interviews, offering preparation tips, coding practice questions, and interview strategies.",
+          "url": "https://www.techinterviewhandbook.org/"
+        },
+        {
+          "title": "Front End Interview Handbook",
+          "description": "Provides detailed questions and answers aimed at front-end developers preparing for job interviews.",
+          "url": "https://www.frontendinterviewhandbook.com/"
+        },
+        {
+          "title": "path-to-senior-engineer-handbook",
+          "description": "An actionable guide for software engineers aiming to advance their careers to a senior level.",
+          "url": "https://github.com/jordan-cutler/path-to-senior-engineer-handbook"
+        },
+        {
+          "title": "GreatFrontEnd",
+          "description": "The only end-to-end front end interview preparation platform. Brought to you by big tech Senior / Staff Front End Engineers.",
+          "url": "https://www.greatfrontend.com/"
+        }
+      ]
+    },
+    {
+      "name": "Learning and Tutorials",
       "resources": [
         {
           "title": "freeCodeCamp",
@@ -42,61 +232,21 @@
           "title": "MarkSheet",
           "description": "A free tutorial to learn HTML and CSS.",
           "url": "https://marksheet.io/"
+        },
+        {
+          "title": "system-design-101",
+          "description": "An open-source repository on GitHub offering resources and tutorials on system design, suitable for beginners and advanced learners.",
+          "url": "https://github.com/ByteByteGoHq/system-design-101"
+        },
+        {
+          "title": "Visualgo",
+          "description": "A visualisation tool for learning computer science algorithms and data structures, featuring interactive animations to enhance understanding.",
+          "url": "https://visualgo.net/en"
         }
       ]
     },
     {
-      "name": "Extension",
-      "resources": [
-        {
-          "title": "vscode-styled-components",
-          "description": "Visual Studio Code extension for syntax highlighting of styled components.",
-          "url": "https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components"
-        },
-        {
-          "title": "VS Code Pets",
-          "description": "An enjoyable VS Code extension that adds pets in your code workspace for a fun coding environment.",
-          "url": "https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets"
-        }
-      ]
-    },
-    {
-      "name": "Resource",
-      "resources": [
-        {
-          "title": "Frontend Mentor Resources",
-          "description": "",
-          "url": "https://www.frontendmentor.io/resources"
-        },
-        {
-          "title": "Best-websites-a-programmer-should-visit",
-          "description": "A curated list of websites and resources for programmers to learn, build, and improve their skills.",
-          "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
-        },
-        {
-          "title": "Free for Developers",
-          "description": "An extensive list of software and services offering free tiers for developers to save costs on development tools.",
-          "url": "https://free-for.dev/#/"
-        },
-        {
-          "title": "Dev Resources",
-          "description": "A comprehensive directory of tools, libraries, and platforms for web development and coding.",
-          "url": "https://devresourc.es/"
-        }
-      ]
-    },
-    {
-      "name": "AI",
-      "resources": [
-        {
-          "title": "ChatGPT",
-          "description": "",
-          "url": "https://chat.openai.com/"
-        }
-      ]
-    },
-    {
-      "name": "Cheatsheet",
+      "name": "Code Snippets and Cheatsheets",
       "resources": [
         {
           "title": "CSS Grid Cheat Sheet",
@@ -117,186 +267,46 @@
           "title": "Easing Functions Cheat Sheet",
           "description": "A comprehensive guide to CSS easing functions.",
           "url": "https://easings.net/"
-        }
-      ]
-    },
-    {
-      "name": "Icon",
-      "resources": [
-        {
-          "title": "Icons",
-          "description": "A library of free vector icons for personal and commercial use.",
-          "url": "https://icons8.com/icons"
-        }
-      ]
-    },
-    {
-      "name": "Image",
-      "resources": [
-        {
-          "title": "Placehold",
-          "description": "A quick and simple image placeholder service.",
-          "url": "https://placehold.co/"
-        }
-      ]
-    },
-    {
-      "name": "Design",
-      "resources": [
-        {
-          "title": "landin'page.fyi",
-          "description": "",
-          "url": "https://landingpage.fyi/"
         },
         {
-          "title": "HTMLrev",
-          "description": "",
-          "url": "https://htmlrev.com/"
-        }
-      ]
-    },
-    {
-      "name": "Documentation",
-      "resources": [
-        {
-          "title": "DevDocs",
-          "description": "An extensive API documentation browser with a fast, organized, and searchable interface.",
-          "url": "https://devdocs.io/"
-        }
-      ]
-    },
-    {
-      "name": "Animation",
-      "resources": [
-        {
-          "title": "Animista",
-          "description": "",
-          "url": "https://animista.net/"
-        }
-      ]
-    },
-    {
-      "name": "SVG",
-      "resources": [
-        {
-          "title": "SVG Repo",
-          "description": "",
-          "url": "https://www.svgrepo.com/"
-        }
-      ]
-    },
-    {
-      "name": "Coding Practice and Challenges",
-      "resources": [
-        {
-          "title": "Codewars",
-          "description": "A platform for coding challenges and exercises across a variety of programming languages.",
-          "url": "https://www.codewars.com/"
+          "title": "Emoji Cheat Sheet",
+          "description": "A comprehensive guide to emoji codes and shortcuts, facilitating easy integration of emojis in coding and communication platforms.",
+          "url": "https://www.webfx.com/tools/emoji-cheat-sheet/"
         },
-        {
-          "title": "Coding Challenges",
-          "description": "A compilation of coding challenges and exercises to improve your coding skills.",
-          "url": "https://codingchallenges.fyi/"
-        },
-        {
-          "title": "JavaScript Katas",
-          "description": "A platform for practicing JavaScript coding skills with katas.",
-          "url": "https://jskatas.org/"
-        },
-        {
-          "title": "Frontend Mentor",
-          "description": "Real-world HTML, CSS, and JavaScript challenges alongside professional front-end projects.",
-          "url": "https://www.frontendmentor.io/"
-        }
-      ]
-    },
-    {
-      "name": "Unorganized",
-      "resources": [
         {
           "title": "30 Seconds of Code",
-          "description": "Short code snippets for all your development needs.",
+          "description": "Provides concise code snippets for a wide range of programming languages and technologies, aimed at helping developers learn and solve problems quickly.",
           "url": "https://www.30secondsofcode.org/"
         },
         {
-          "title": "styled-components",
-          "description": "A CSS-in-JS styling framework for React applications.",
-          "url": "https://styled-components.com/"
-        },
-        {
-          "title": "30 Seconds of Interviews",
-          "description": "A collection of common interview questions and answers for front-end development.",
-          "url": "https://30secondsofinterviews.org/"
-        },
-        {
-          "title": "CSS Tools: Reset CSS",
-          "description": "A CSS reset stylesheet to reduce browser inconsistencies.",
-          "url": "https://meyerweb.com/eric/tools/css/reset/"
-        },
-        {
-          "title": "Cubic Bezier",
-          "description": "A tool for generating cubic-bezier curves.",
-          "url": "https://cubic-bezier.com/"
-        },
-        {
-          "title": "Getting Into Information Security",
-          "description": "",
-          "url": "https://shellsharks.com/getting-into-information-security#title"
-        },
-        {
-          "title": "@gsap/react for using GSAP in React",
-          "description": "",
-          "url": "https://github.com/greensock/react"
-        },
-        {
           "title": "Code to go",
-          "description": "",
+          "description": "Find up to date snippets for JavaScript & React use cases",
           "url": "https://codetogo.io/"
+        }
+      ]
+    },
+    {
+      "name": "Resource",
+      "resources": [
+        {
+          "title": "Frontend Mentor Resources",
+          "description": "A collection of resources provided by Frontend Mentor, including tools, libraries, and guides for front-end development.",
+          "url": "https://www.frontendmentor.io/resources"
         },
         {
-          "title": "Responsively App",
-          "description": "",
-          "url": "https://responsively.app/"
+          "title": "Best-websites-a-programmer-should-visit",
+          "description": "A curated list of websites and resources for programmers to learn, build, and improve their skills.",
+          "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
         },
         {
-          "title": "Tech Interview Handbook",
-          "description": "",
-          "url": "https://www.techinterviewhandbook.org/"
+          "title": "Free for Developers",
+          "description": "An extensive list of software and services offering free tiers for developers to save costs on development tools.",
+          "url": "https://free-for.dev/#/"
         },
         {
-          "title": "Front End Interview Handbook",
-          "description": "",
-          "url": "https://www.frontendinterviewhandbook.com/"
-        },
-        {
-          "title": "GreatFrontEnd",
-          "description": "",
-          "url": "https://www.greatfrontend.com/"
-        },
-        {
-          "title": "system-design-101",
-          "description": "",
-          "url": "https://github.com/ByteByteGoHq/system-design-101"
-        },
-        {
-          "title": "engineering-blogs",
-          "description": "",
-          "url": "https://github.com/kilimchoi/engineering-blogs"
-        },
-        {
-          "title": "path-to-senior-engineer-handbook",
-          "description": "",
-          "url": "https://github.com/jordan-cutler/path-to-senior-engineer-handbook"
-        },
-        {
-          "title": "Visualgo",
-          "description": "",
-          "url": "https://visualgo.net/en"
-        },
-        {
-          "title": "IT-Tools",
-          "description": "",
-          "url": "https://it-tools.tech/"
+          "title": "Dev Resources",
+          "description": "A comprehensive directory of tools, libraries, and platforms for web development and coding.",
+          "url": "https://devresourc.es/"
         }
       ]
     }
