@@ -35,10 +35,13 @@ const Footer: FC<FooterProps> = ({ ...restProps }) => {
         <Link href="mailto:ville.prami@me.com?subject=Resources%20User%20Contact">
           Contact
         </Link>
-        <Link>Contribute</Link>
+        <Link href="https://github.com/PrVille/resources/blob/main/CONTRIBUTING.md">
+          Contribute
+        </Link>
       </Links>
       <Author>
-        Website by <Link>Ville Prami</Link>
+        Website by{" "}
+        <Link href="https://villeprami.vercel.app/">Ville Prami</Link>
       </Author>
     </StyledFooter>
   )
