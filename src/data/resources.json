@@ -25,13 +25,13 @@
         },
         {
           "title": "VS Code Pets",
-          "description": "",
+          "description": "An enjoyable VS Code extension that adds pets in your code workspace for a fun coding environment.",
           "url": "https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets"
         }
       ]
     },
     {
-      "name": "Resources Collections",
+      "name": "Resource Collections",
       "resources": [
         {
           "title": "Frontend Mentor Resources",
@@ -40,28 +40,18 @@
         },
         {
           "title": "Best-websites-a-programmer-should-visit",
-          "description": "",
+          "description": "A curated list of websites and resources for programmers to learn, build, and improve their skills.",
           "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
         },
         {
           "title": "Free for Developers",
-          "description": "",
+          "description": "An extensive list of software and services offering free tiers for developers to save costs on development tools.",
           "url": "https://free-for.dev/#/"
         },
         {
           "title": "Dev Resources",
-          "description": "",
+          "description": "A comprehensive directory of tools, libraries, and platforms for web development and coding.",
           "url": "https://devresourc.es/"
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "",
-          "description": "",
-          "url": ""
         }
       ]
     },

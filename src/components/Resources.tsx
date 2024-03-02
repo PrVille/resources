@@ -18,9 +18,13 @@ interface ResourcesProps {
 }
 
 const Resources: FC<ResourcesProps> = ({ resources, ...restProps }) => {
+  const sortedResources = resources.sort((a, b) =>
+    a.title.toLowerCase() > b.title.toLowerCase() ? 1 : -1
+  )
+
   return (
     <StyledResources {...restProps}>
-      {resources.map((resource, index) => (
+      {sortedResources.map((resource, index) => (
         <Resource key={index} resource={resource} />
       ))}
     </StyledResources>

@@ -2,6 +2,14 @@ import styled from "styled-components"
 import { FC } from "react"
 import * as types from "../types/global"
 
+const truncate = (text: string, limit = 200) => {
+  if (text.length > limit) {
+    return text.substring(0, limit) + "..."
+  }
+
+  return text
+}
+
 const StyledResource = styled.a`
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -54,7 +62,7 @@ const Resource: FC<ResourceProps> = ({ resource, ...restProps }) => {
         <Title>{resource.title}</Title>
       </TitleContainer>
 
-      <Description>{resource.description}</Description>
+      <Description>{truncate(resource.description)}</Description>
     </StyledResource>
   )
 }

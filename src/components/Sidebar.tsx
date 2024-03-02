@@ -14,7 +14,8 @@ const StyledSidebar = styled.aside`
   left: 0px;
 
   margin-right: 50px;
-  width: 270px;
+  max-width: 270px;
+  min-width: 270px;
   height: calc(100vh - 60px);
 
   overflow-y: auto;
