@@ -1,6 +1,9 @@
 import styled from "styled-components"
 import { FC } from "react"
 import * as types from "../types/global"
+import useFavorites from "../hooks/useFavorites"
+import heartFilled from "../assets/heart-filled.svg"
+import heartOutline from "../assets/heart-outline.svg"
 
 const truncate = (text: string, limit = 200) => {
   if (text.length > limit) {
@@ -25,6 +28,7 @@ const StyledResource = styled.a`
 
 const TitleContainer = styled.div`
   display: flex;
+  align-items: flex-start;
   gap: 12px;
   padding-bottom: 16px;
 `
@@ -35,6 +39,7 @@ const FavIcon = styled.img`
 `
 
 const Title = styled.h4`
+  flex-grow: 1;
   line-height: 16px;
 `
 
@@ -43,12 +48,30 @@ const Description = styled.p`
   color: gray;
 `
 
+const Button = styled.button`
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+`
+
+const Heart = styled.img`
+  height: 16px;
+  width: 16px;
+`
+
 interface ResourceProps {
   resource: types.Resource
 }
 
 const Resource: FC<ResourceProps> = ({ resource, ...restProps }) => {
+  const { toggleFavorite, isFavorite } = useFavorites()
   const favIconSrc = `https://www.google.com/s2/favicons?domain=${resource.url}`
+
+  const handleFavoritesClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault()
+    event.stopPropagation()
+    toggleFavorite(resource)
+  }
 
   return (
     <StyledResource
@@ -60,6 +83,9 @@ const Resource: FC<ResourceProps> = ({ resource, ...restProps }) => {
       <TitleContainer>
         <FavIcon src={favIconSrc} />
         <Title>{resource.title}</Title>
+        <Button onClick={handleFavoritesClick}>
+          <Heart src={isFavorite(resource) ? heartFilled : heartOutline} />
+        </Button>
       </TitleContainer>
 
       <Description>{truncate(resource.description)}</Description>

@@ -1,6 +1,7 @@
 import { FC } from "react"
 import { Category } from "../types/global"
 import styled from "styled-components"
+import useFavorites from "../hooks/useFavorites"
 
 const calculateTotalResources = (categories: Category[]) => {
   return categories
@@ -51,6 +52,10 @@ const ListItem = styled.li`
   }
 `
 
+const ListItemLg = styled(ListItem)`
+  font-size: 16px;
+`
+
 const TotalResources = styled.li`
   text-transform: uppercase;
   font-weight: 700;
@@ -64,6 +69,8 @@ interface SidebarProps {
 }
 
 const Sidebar: FC<SidebarProps> = ({ categories, ...restProps }) => {
+  const { favorites } = useFavorites()
+
   const handleScroll = (categoryName: string) => {
     const section = document.getElementById(categoryName)
     if (section) {
@@ -74,6 +81,11 @@ const Sidebar: FC<SidebarProps> = ({ categories, ...restProps }) => {
   return (
     <StyledSidebar {...restProps}>
       <Content>
+        {favorites.length > 0 && (
+          <ListItemLg onClick={() => handleScroll("Favorites")}>
+            Favorites
+          </ListItemLg>
+        )}
         <Title>Categories</Title>
 
         {categories.map((category, index) => (

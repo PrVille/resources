@@ -3,7 +3,9 @@ import styled from "styled-components"
 import Categories from "../../components/Categories"
 import Sidebar from "../../components/Sidebar"
 
-const sortedCategories = resources.categories.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1))
+const sortedCategories = resources.categories.sort((a, b) =>
+  a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+)
 
 const StyledHome = styled.div`
   min-height: 100vh;
@@ -37,7 +39,7 @@ const TopBar = styled.header`
   z-index: 10;
 `
 
-const Home = () => {  
+const Home = () => {
   return (
     <StyledHome>
       <TopBar>
