@@ -12,6 +12,16 @@
           "title": "Midjourney",
           "description": "Midjourney is a generative AI that can convert natural language prompts into images",
           "url": "https://www.midjourney.com/home"
+        },
+        {
+          "title": "Gemini",
+          "description": "Gemini AI is Google's powerful multimodal artificial intelligence model capable of understanding text, images, videos, and audio, enabling it to complete complex tasks and generate high-quality code in multiple programming languages.",
+          "url": "https://gemini.google.com/app"
+        },
+        {
+          "title": "Microsoft Copilot",
+          "description": "Microsoft Copilot is a chatbot developed by Microsoft. Based on a large language model, it is able to cite sources, create poems, and write songs.",
+          "url": "https://copilot.microsoft.com/"
         }
       ]
     },
@@ -172,6 +182,16 @@
           "title": "IT-Tools",
           "description": "A curated collection of IT and networking tools, including calculators, converters, and troubleshooting utilities for professionals.",
           "url": "https://it-tools.tech/"
+        },
+        {
+          "title": "PX to REM converter",
+          "description": "This calculator converts pixels to the CSS unit REM.",
+          "url": "https://nekocalc.com/px-to-rem-converter"
+        },
+        {
+          "title": "Color Picker",
+          "description": "Pick your color online.",
+          "url": "https://imagecolorpicker.com/"
         }
       ]
     },
