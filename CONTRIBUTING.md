@@ -1,3 +1,5 @@
+# OUTDATED
+
 # Contributing
 
 Welcome, and thank you for considering contributing to our collection of free software development resources! Our goal is to build a comprehensive, easy-to-navigate, and up-to-date repository that can help developers at all levels. Whether you're looking to add new resources, update existing ones, or improve the site's functionality, your contributions are invaluable.

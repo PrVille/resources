@@ -3,7 +3,7 @@ import styled from "styled-components"
 import Categories from "../../components/Categories"
 import Sidebar from "../../components/Sidebar"
 import Footer from "../../components/Footer"
-import { Category, Resource } from "../../types/global"
+import { Category, CategoryName, Resource } from "../../types/global"
 
 const StyledHome = styled.div`
   min-height: 100vh;
@@ -38,7 +38,7 @@ const TopBar = styled.header`
 `
 
 const convertResourcesToCategories = (resources: Resource[]): Category[] => {
-  const categoryMap: Map<string, Resource[]> = new Map()
+  const categoryMap: Map<CategoryName, Resource[]> = new Map()
 
   for (const resource of resources) {
     for (const category of resource.categories) {

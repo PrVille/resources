@@ -41,7 +41,11 @@ const resources: Resource[] = [
     description:
       "A web-based tool that allows users to easily generate CSS animations with customizable parameters.",
     url: "https://animista.net/",
-    categories: ["Animation"],
+    categories: [
+      "Animation",
+      "Development Tools and Extensions",
+      "Design and UI",
+    ],
   },
   {
     title: "API Ninjas",
@@ -689,35 +693,35 @@ const resources: Resource[] = [
     description:
       "A collection of resources provided by Frontend Mentor, including tools, libraries, and guides for front-end development.",
     url: "https://www.frontendmentor.io/resources",
-    categories: ["Resource"],
+    categories: ["Resources"],
   },
   {
     title: "Best-websites-a-programmer-should-visit",
     description:
       "A curated list of websites and resources for programmers to learn, build, and improve their skills.",
     url: "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
-    categories: ["Resource"],
+    categories: ["Resources"],
   },
   {
     title: "Free for Developers",
     description:
       "An extensive list of software and services offering free tiers for developers to save costs on development tools.",
     url: "https://free-for.dev/#/",
-    categories: ["Resource"],
+    categories: ["Resources"],
   },
   {
     title: "Dev Resources",
     description:
       "A comprehensive directory of tools, libraries, and platforms for web development and coding.",
     url: "https://devresourc.es/",
-    categories: ["Resource"],
+    categories: ["Resources"],
   },
   {
     title: "LinksHub",
     description:
       "LinksHub aims to provide people access to a wide range of free resources and tools that they can use to learn and develop their tech skills.",
     url: "https://www.linkshub.dev/",
-    categories: ["Resource"],
+    categories: ["Resources"],
   },
   {
     title: "Sebastian Lague",
