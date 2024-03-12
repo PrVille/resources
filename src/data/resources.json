@@ -122,6 +122,16 @@
           "title": "engineering-blogs",
           "description": "A curated list of engineering blogs of tech companies and startups, providing insights into engineering culture, practices, and projects.",
           "url": "https://github.com/kilimchoi/engineering-blogs"
+        },
+        {
+          "title": "Behance",
+          "description": "Behance is a platform where users can showcase and discover creative work across various fields like design, fashion, illustration, photography, and more. It is part of the Adobe Family and allows creatives to share their projects, get feedback, watch livestreams, and connect with other members.",
+          "url": "https://www.behance.net"
+        },
+        {
+          "title": "Dribbble",
+          "description": "Dribbble is a leading online platform that serves as a community for creatives to share their design work, grow their skills, and find job opportunities. It is a hub for designers, illustrators, artists, and other creative professionals to showcase their portfolios and connect with like-minded individuals.",
+          "url": "https://dribbble.com"
         }
       ]
     },
@@ -217,6 +227,11 @@
           "title": "DevDocs",
           "description": "An extensive API documentation browser with a fast, organized, and searchable interface.",
           "url": "https://devdocs.io/"
+        },
+        {
+          "title": "A11Y Project Checklist",
+          "description": "The A11Y Project Checklist provides specific, testable rules based on the Web Content Accessibility Guidelines (WCAG) to improve website accessibility. While it does not guarantee full accessibility, addressing the issues outlined in the checklist can enhance the user experience for all visitors.",
+          "url": "https://www.a11yproject.com/checklist/"
         }
       ]
     },
@@ -357,6 +372,11 @@
           "title": "Visualgo",
           "description": "A visualisation tool for learning computer science algorithms and data structures, featuring interactive animations to enhance understanding.",
           "url": "https://visualgo.net/en"
+        },
+        {
+          "title": "The Odin Project",
+          "description": "The Odin Project is an open-source online curriculum for learning web development. It offers a self-paced curriculum with the best resources for learning programming on the web, helping users acquire the skills needed to become web developers.",
+          "url": "https://www.theodinproject.com"
         }
       ]
     },
@@ -402,6 +422,11 @@
           "title": "So You Think You Know Git - FOSDEM 2024",
           "description": "A comprehensive guide to mastering Git presented by Scott Chacon, co-founder of GitHub, at FOSDEM 2024.",
           "url": "https://www.youtube.com/watch?v=aolI_Rz0ZqY"
+        },
+        {
+          "title": "Fireship",
+          "description": "Fireship is a YouTube channel that provides high-intensity code tutorials and tech news to help programmers ship their applications faster. The channel releases new videos weekly covering essential topics for programmers.",
+          "url": "https://www.youtube.com/@Fireship"
         }
       ]
     }
