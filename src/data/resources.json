@@ -22,6 +22,11 @@
           "title": "Microsoft Copilot",
           "description": "Microsoft Copilot is a chatbot developed by Microsoft. Based on a large language model, it is able to cite sources, create poems, and write songs.",
           "url": "https://copilot.microsoft.com/"
+        },
+        {
+          "title": "Perplexity AI",
+          "description": "Perplexity AI is a conversational search engine marketed as an 'answer engine' that provides answers using natural language predictive text. It was launched in 2022 and offers real-time web searches and the most current information on various subjects.",
+          "url": "https://www.perplexity.ai"
         }
       ]
     },
@@ -157,6 +162,16 @@
           "title": "SaaS Landing Page",
           "description": "Discover the best 780 landing page examples created by top-class SaaS companies and get ideas and inspiration for your next design project.",
           "url": "https://saaslandingpage.com/"
+        },
+        {
+          "title": "The FWA",
+          "description": "The FWA is a website that showcases awards, news, live judging, and recently launched a new website.",
+          "url": "https://thefwa.com"
+        },
+        {
+          "title": "Awwwards",
+          "description": "Awwwards is a platform that showcases website awards, best web design trends, and features news and updates in the digital design world.",
+          "url": "https://www.awwwards.com"
         }
       ]
     },
@@ -382,6 +397,11 @@
           "title": "Sebastian Lague",
           "description": "Hello, on this channel I explore how to create stuff out of code. I hope you find some of it interesting!",
           "url": "https://www.youtube.com/@SebastianLague"
+        },
+        {
+          "title": "So You Think You Know Git - FOSDEM 2024",
+          "description": "A comprehensive guide to mastering Git presented by Scott Chacon, co-founder of GitHub, at FOSDEM 2024.",
+          "url": "https://www.youtube.com/watch?v=aolI_Rz0ZqY"
         }
       ]
     }
