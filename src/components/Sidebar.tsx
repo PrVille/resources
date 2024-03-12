@@ -1,13 +1,8 @@
+import resources from "../data/resources"
 import { FC } from "react"
 import { Category } from "../types/global"
 import styled from "styled-components"
 import useFavorites from "../hooks/useFavorites"
-
-const calculateTotalResources = (categories: Category[]) => {
-  return categories
-    .map((category) => category.resources.length)
-    .reduce((acc, curr) => acc + curr, 0)
-}
 
 const StyledSidebar = styled.aside`
   position: sticky;
@@ -94,9 +89,7 @@ const Sidebar: FC<SidebarProps> = ({ categories, ...restProps }) => {
           </ListItem>
         ))}
 
-        <TotalResources>
-          Total Resources: {calculateTotalResources(categories)}
-        </TotalResources>
+        <TotalResources>Total Resources: {resources.length}</TotalResources>
       </Content>
     </StyledSidebar>
   )

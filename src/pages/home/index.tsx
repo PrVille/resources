@@ -1,12 +1,9 @@
-import resources from "../../data/resources.json"
+import resources from "../../data/resources"
 import styled from "styled-components"
 import Categories from "../../components/Categories"
 import Sidebar from "../../components/Sidebar"
 import Footer from "../../components/Footer"
-
-const sortedCategories = resources.categories.sort((a, b) =>
-  a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
-)
+import { Category, Resource } from "../../types/global"
 
 const StyledHome = styled.div`
   min-height: 100vh;
@@ -40,6 +37,37 @@ const TopBar = styled.header`
   z-index: 10;
 `
 
+const convertResourcesToCategories = (resources: Resource[]): Category[] => {
+  const categoryMap: Map<string, Resource[]> = new Map()
+
+  for (const resource of resources) {
+    for (const category of resource.categories) {
+      if (!categoryMap.has(category)) {
+        categoryMap.set(category, [])
+      }
+
+      categoryMap.get(category)?.push(resource)
+    }
+  }
+
+  const convertedData: Category[] = []
+
+  categoryMap.forEach((resources, name) => {
+    const category: Category = {
+      name,
+      resources,
+    }
+
+    convertedData.push(category)
+  })
+
+  return convertedData
+}
+
+const categories = convertResourcesToCategories(resources).sort((a, b) =>
+  a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1
+)
+
 const Home = () => {
   return (
     <StyledHome>
@@ -47,10 +75,10 @@ const Home = () => {
         <StyledTitle>Free Resources</StyledTitle>
       </TopBar>
 
-      <Sidebar categories={sortedCategories} />
+      <Sidebar categories={categories} />
 
       <MainContent>
-        <Categories categories={sortedCategories} />
+        <Categories categories={categories} />
         <Footer />
       </MainContent>
     </StyledHome>
