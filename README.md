@@ -29,3 +29,5 @@ npm run dev
 - Styles
 - Navigation
 - Mobile responsive
+- Update contributing
+- Data refinement

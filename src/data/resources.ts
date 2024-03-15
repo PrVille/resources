@@ -312,7 +312,7 @@ const resources: Resource[] = [
     categories: ["Development Tools and Extensions"],
   },
   {
-    title: "CSS Tools: Reset CSS",
+    title: "Reset CSS",
     description: "A CSS reset stylesheet to reduce browser inconsistencies.",
     url: "https://meyerweb.com/eric/tools/css/reset/",
     categories: ["Development Tools and Extensions"],
@@ -379,30 +379,28 @@ const resources: Resource[] = [
     categories: ["Development Tools and Extensions"],
   },
   {
-    title:
-      "Firebase | Google\u00e2\u20ac\u2122s Mobile and Web App Development Platform",
+    title: "Firebase",
     description:
       "Firebase is an app development platform by Google that helps in building and growing apps and games, trusted by millions of businesses worldwide.",
     url: "https://firebase.google.com/",
     categories: ["Development Tools and Extensions"],
   },
   {
-    title: "Auth0 Documentation | Auth0",
+    title: "Auth0",
     description:
       "Auth0 provides documentation for building and implementing authentication and authorization solutions, including customizing Auth0, adding multi-factor authentication, and troubleshooting challenges. The documentation covers various frameworks and languages, and includes guides for backend/API, mobile, single-page app, and regular web app development.",
     url: "https://auth0.com/docs",
     categories: ["Development Tools and Extensions"],
   },
   {
-    title: "Zeplo - Magical HTTP Request Queue",
+    title: "Zeplo",
     description:
       "Zeplo is a message queue as a service, powered by HTTPS. It offers a simple and fast setup, taking only 5 minutes to set up compared to SQS which can take a month. Zeplo is useful for communicating with third-party APIs and provides a more user-friendly experience. It has been used for tasks such as writing screenshot services for member directories.",
     url: "https://zeplo.io/",
     categories: ["Development Tools and Extensions"],
   },
   {
-    title:
-      "Vercel | The Frontend Cloud for Building and Deploying Web Experiences",
+    title: "Vercel",
     description:
       "Vercel is a platform that offers quickstart templates for deploying AI apps, optimized compute for globally performant apps, zero-config streaming for better user experiences, and more. It provides features like Git-connected deploys, collaborative pre-production, and infrastructure designed to automatically mitigate DDoS attacks and protect information.",
     url: "https://vercel.com/home",
@@ -423,7 +421,7 @@ const resources: Resource[] = [
     categories: ["Documentation and Reference"],
   },
   {
-    title: "A11Y Project Checklist",
+    title: "WCAG Compliance Checklist",
     description:
       "The A11Y Project Checklist provides specific, testable rules based on the Web Content Accessibility Guidelines (WCAG) to improve website accessibility. While it does not guarantee full accessibility, addressing the issues outlined in the checklist can enhance the user experience for all visitors.",
     url: "https://www.a11yproject.com/checklist/",
