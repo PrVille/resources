@@ -742,6 +742,245 @@ const resources: Resource[] = [
     url: "https://www.youtube.com/@Fireship",
     categories: ["YouTube"],
   },
+  {
+    title: "How to Build a Software Engineer Portfolio: The Ultimate Guide",
+    description:
+      "Learn how to create an effective software engineer portfolio to showcase your skills and projects.",
+    url: "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    categories: ["Learning and Tutorials", "Interview and Career"],
+  },
+  {
+    title: "Pygame Documentation",
+    description:
+      "Official documentation for Pygame, a set of Python modules designed for writing video games.",
+    url: "https://www.pygame.org/docs/",
+    categories: ["Documentation and Reference", "Python", "Game Development"],
+  },
+  {
+    title: "itch.io",
+    description:
+      "itch.io is a platform for indie game developers to share and distribute their games for free.",
+    url: "https://itch.io/",
+    categories: ["Game Development", "Community"],
+  },
+  {
+    title: "Tiled Map Editor",
+    description:
+      "Flexible and versatile tool for creating tile-based game levels.",
+    url: "https://www.mapeditor.org/",
+    categories: [
+      "Development Tools and Extensions",
+      "Design and UI",
+      "Game Development",
+    ],
+  },
+  {
+    title: "OpenGameArt.org",
+    description: "A repository of free and open-source game art assets.",
+    url: "https://opengameart.org/",
+    categories: [
+      "Resources",
+      "Icons and Images",
+      "Animation",
+      "Design and UI",
+      "Game Development",
+    ],
+  },
+  {
+    title: "W3Schools",
+    description:
+      "Comprehensive website offering web development tutorials and references.",
+    url: "https://www.w3schools.com/",
+    categories: [
+      "Learning and Tutorials",
+      "Documentation and Reference",
+      "Coding Practice and Challenges",
+    ],
+  },
+  {
+    title: "21 Best Developer Portfolio Examples",
+    description:
+      "HackerNoon article showcasing inspiring examples of web developer portfolios.",
+    url: "https://hackernoon.com/21-best-developer-portfolio-examples-p61j31wi",
+    categories: ["Community", "Resources", "Inspiration", "Design and UI"],
+  },
+  {
+    title: "Clear Code",
+    description:
+      "YouTube channel offering game development and coding tutorials mainly in Python.",
+    url: "https://www.youtube.com/@ClearCode",
+    categories: [
+      "YouTube",
+      "Learning and Tutorials",
+      "Game Development",
+      "Python",
+    ],
+  },
+  {
+    title: "CodeAesthetic",
+    description: "YouTube channel",
+    url: "https://www.youtube.com/@CodeAesthetic",
+    categories: ["YouTube"],
+  },
+  {
+    title: "Awesome Github Profile",
+    description: "A curated list of awesome Github Profile READMEs.",
+    url: "https://zzetao.github.io/awesome-github-profile",
+    categories: ["Community", "Design and UI", "Resources"],
+  },
+  {
+    title: "Best-websites-a-programmer-should-visit",
+    description:
+      "GitHub repository with a curated list of websites valuable for programmers.",
+    url: "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+    categories: ["Community", "Learning and Tutorials", "Resources"],
+  },
+  {
+    title: "awesome-actions",
+    description:
+      "A curated collection of useful GitHub Actions for workflow automation.",
+    url: "https://github.com/sdras/awesome-actions",
+    categories: [
+      "Development Tools and Extensions",
+      "Resources",
+      "Documentation and Reference",
+    ],
+  },
+  {
+    title: "awesome-readme",
+    description:
+      "A curated collection of well-crafted README files for project inspiration.",
+    url: "https://github.com/matiassingers/awesome-readme",
+    categories: [
+      "Community",
+      "Design and UI",
+      "Resources",
+      "Documentation and Reference",
+    ],
+  },
+  {
+    title: "repo-badges",
+    description:
+      "Generate badges for your README files to display project health and quality metrics.",
+    url: "https://github.com/dwyl/repo-badges",
+    categories: [
+      "Development Tools and Extensions",
+      "Design and UI",
+      "Resources",
+    ],
+  },
+  {
+    title: "public-apis",
+    description:
+      "A comprehensive list of free APIs for use in software development projects.",
+    url: "https://github.com/public-apis/public-apis",
+    categories: ["APIs and Data", "Resources"],
+  },
+  {
+    title: "The Cloud Resume Challenge",
+    description:
+      "A project-based learning initiative to build cloud skills and enhance your resume.",
+    url: "https://cloudresumechallenge.dev/",
+    categories: [
+      "Learning and Tutorials",
+      "Coding Practice and Challenges",
+      "Interview and Career",
+      "Community",
+    ],
+  },
+  {
+    title: "Udemy",
+    description:
+      "An online learning platform offering courses in various categories like web development, business, and more.",
+    url: "https://www.udemy.com/",
+    categories: ["Learning and Tutorials", "Resources"],
+  },
+  {
+    title: "Full Stack Open",
+    description:
+      "A comprehensive course on modern web development covering React, Redux, Node.js, MongoDB, GraphQL, and TypeScript.",
+    url: "https://fullstackopen.com/en/",
+    categories: [
+      "Learning and Tutorials",
+      "Coding Practice and Challenges",
+      "Frameworks and Libraries",
+      "APIs and Data",
+    ],
+  },
+  {
+    title: "Badges4-README.md-Profile",
+    description:
+      "A collection of badges to enhance and customize your GitHub profile README.",
+    url: "https://github.com/alexandresanlim/Badges4-README.md-Profile",
+    categories: ["Design and UI", "Community", "Resources"],
+  },
+  {
+    title: "Skill Icons",
+    description:
+      "A collection of SVG icons representing various skills to showcase on your GitHub profile or resume",
+    url: "https://github.com/tandpfun/skill-icons",
+    categories: ["Design and UI", "Resources"],
+  },
+  {
+    title: "Visitor Badge",
+    description:
+      "A service to generate a visitor badge for your website or GitHub profile to showcase visitor traffic.",
+    url: "https://www.visitorbadge.io/",
+    categories: ["Design and UI", "Resources"],
+  },
+  {
+    title: "GitHub Profile README Generator",
+    description:
+      "A web-based tool to easily create customized GitHub profile README files with stats, badges, and more.",
+    url: "https://rahuldkjain.github.io/gh-profile-readme-generator/",
+    categories: ["Design and UI", "Resources"],
+  },
+  {
+    title: "github-readme-stats",
+    description: "Generate dynamic stats cards for your GitHub profile README.",
+    url: "https://github.com/anuraghazra/github-readme-stats",
+    categories: [
+      "Development Tools and Extensions",
+      "Design and UI",
+      "Resources",
+      "APIs and Data",
+    ],
+  },
+  {
+    title: "Markdown Badges - Personal Developer Branding",
+    description:
+      "This is an article about badges for personal developer branding. It discusses what badges are and how to use them. The article also lists a variety of badges you can use, categorized by topic. Some of the topics include artificial intelligence, browsers, and databases. To use a badge, you copy the markdown link and paste it into your Markdown file.",
+    url: "https://github.com/Ileriayo/markdown-badges",
+    categories: ["Design and UI"],
+  },
+  {
+    title: "readme.so",
+    description:
+      "Online tool to easily create professional READMEs for your projects.",
+    url: "https://readme.so/",
+    categories: [
+      "Development Tools and Extensions",
+      "Documentation and Reference",
+      "Community",
+    ],
+  },
+  {
+    title: "Profile Readme Generator",
+    description: "This webpage is a profile readme generator.",
+    url: "https://profile-readme-generator.com/",
+    categories: ["Development Tools and Extensions"],
+  },
+  {
+    title: "GitHub",
+    description:
+      "GitHub is a platform for software development using version control. It helps developers collaborate and build software.",
+    url: "https://github.com/",
+    categories: [
+      "Cloud Services and Infrastructure",
+      "Development Tools and Extensions",
+      "Community",
+    ],
+  },
 ]
 
 export default resources

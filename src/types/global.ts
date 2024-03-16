@@ -12,9 +12,12 @@ export type CategoryName =
   | "Development Tools and Extensions"
   | "Documentation and Reference"
   | "Frameworks and Libraries"
+  | "Game Development"
   | "Icons and Images"
+  | "Inspiration"
   | "Interview and Career"
   | "Learning and Tutorials"
+  | "Python"
   | "Resources"
   | "YouTube"
 
